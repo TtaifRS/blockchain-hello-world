@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-hello-world",
+  "version": "1.0.0",
+  "description": "Basic smart contract with test and deploy (Ethereum Solidity)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "blockchain"
+  ],
+  "type": "module",
+  "author": "Taif Rahaman",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.10",
+    "ganache": "^7.3.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.8.15",
+    "web3": "^1.7.4"
+  }
+}
